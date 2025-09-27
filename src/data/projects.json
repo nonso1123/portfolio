@@ -1,0 +1,39 @@
+[
+	{
+		"title": "tekit",
+		"image": "projects/project.png",
+		"description": " This is an interactive and responsive landing page with smooth animations.",
+		"tools": [
+			"React",
+			"TailwindCSS",
+			"SwiperJS",
+			"Framer Motion",
+			"React Icons"
+		],
+		"demo": "https://tekit-peach.vercel.app",
+		"source": "https://github.com/nonso1123/landing_page"
+	},
+	{
+		"title": "Spotify Clone",
+		"image": "projects/project.png",
+		"description": "This is a Spotify clone app that I build using MERN. Users can upload, play songs, delete songs, and also create an album and add songs into the album.",
+		"tools": [
+			"React",
+			"Express",
+			"Node",
+			"TailwindCSS",
+			"Mongodb",
+			"Cloudinary"
+		],
+		"demo": "https://spotify-sy0g.onrender.com",
+		"source": "https://github.com/nonso1123/spotify"
+	},
+	{
+		"title": "Flashapp",
+		"image": "projects/project.png",
+		"description": "A social media web app built with Django REST Framework, React, and ChakraUI. It enables users to register/login, create posts with text and images, like/unlike posts, follow/unfollow others, and search users by username.",
+		"tools": ["React", "Python", "Django", "ChakraUI"],
+		"demo": "https://flashapp-sook.onrender.com",
+		"source": "https://github.com/nonso1123/flashapp"
+	}
+]
