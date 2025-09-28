@@ -63,7 +63,10 @@ const Navbar = () => {
 							<a
 								key={index}
 								href={link.href}
-								onClick={() => setActiveLink(link.href)}
+								onClick={() => {
+									setIsMenuOPen(!isMenuOpen);
+									setActiveLink(link.href);
+								}}
 								className={`block text-sm font-medium py-2 cursor-pointer ${
 									activeLink === link.href
 										? "text-blue-500"
